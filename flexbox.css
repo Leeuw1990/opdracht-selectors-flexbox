@@ -1,0 +1,37 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+==
+======================================================= */
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+ .two{
+     display: flex;
+     justify-content: space-between;
+}
+
+ .three{
+     display: flex;
+     justify-content: space-between;
+     align-items: baseline;
+     flex-direction: row;
+
+     /* bij deze opdracht gaat het linker tekst niet uit elkaar*/
+ }
+
+ .four{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .five {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+ }

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* ======================================================
+   OEFENEN MET CSS SELECTORS
+========================================================= */
+
+/* 1.1 Geef de 'img' tag in the header een ID en zet zijn breedte op 100% */
+#tutti {
+    width: 100%
+}
+/* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
+
+ul{
+    color: hsl(110, 29%, 52%)
+}
+/* 1.3 Geef de 'span' tag in de footer een beschrijvende class name en maak de lettergrootte kleiner  */
+
+span {
+    font-size: 10px;
+}
+
+/* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
+#about {color:  hsl(359, 79%, 56%)}
+#about:hover {color: hsl(110, 29%, 52%)}
+
+#artcles{color:  hsl(359, 79%, 56%)}
+#artcles:hover{color: hsl(110, 29%, 52%)}
+
+#places{color:  hsl(359, 79%, 56%)}
+#places:hover{color: hsl(110, 29%, 52%)}
+
+#getintouch{color:  hsl(359, 79%, 56%)}
+#getintouch:hover{color: hsl(110, 29%, 52%)}
+
+
+
+
+
+/* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
+/* Waarom reageren alle links op visited?*/
+
+#read1{color:hsl(359, 79%, 56%);}
+#read1:hover{color: hsl(110, 29%, 52%);}
+#read1:visited {color: hsl(110, 29%, 52%);}
+
+#read2{color:hsl(359, 79%, 56%);}
+#read2:hover{color: hsl(110, 29%, 52%);}
+#read2:visited{color: hsl(110, 29%, 52%);}
+
+
+#erat {color: hsl(359, 79%, 56%);}
+#erat:hover {color: hsl(110, 29%, 52%);}
+#erat:visited {color: hsl(110, 29%, 52%);}
+
+
+/* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
+
+#submit1 {
+    list-style: upper-latin;
+    background-color:hsl(359, 79%, 56%) ;
+}
+
+/* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
+#textfield:focus {
+    outline: 3px solid blue;
+}
+
+/* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
+
+h1,h2,h3 {
+    font-family: 'Bree Serif', serif;
+}
